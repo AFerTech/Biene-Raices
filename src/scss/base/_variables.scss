@@ -1,7 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Lato:300,400,700,900');
 
 // Fuentes
-$fuente_principal: 'Lato', sans-serif;
+$fuente_titulos: 'Inter', sans-serif;
+$fuente_texto: 'Playfair Display', serif;
+
+
 
 // Tamaño de Media Queries
 $telefono: 480px;
@@ -19,7 +22,10 @@ $grisOscuro: #333333;
 $separacion: 5rem;
 
 // Fuentes
-$delgada: 300;
-$regular : 400;
-$bold: 700;
-$black: 900
+$i_delgada: 200;
+$i_regular : 400;
+$i_bold: 700;
+$p_semi: 600;
+$p_bold:700;
+$p_extra_bold:800;
+$p_black: 900;
