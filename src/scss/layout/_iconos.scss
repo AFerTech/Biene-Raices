@@ -8,6 +8,10 @@
         text-transform: uppercase;
 
     }
+    p{
+        font-weight: $i_delgada;
+        font-size: 1.5rem;
+    }
 }
 
 @include tablet{
