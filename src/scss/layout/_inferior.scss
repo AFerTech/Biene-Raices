@@ -18,6 +18,11 @@
         margin-bottom: 0;
     }
 }
+.informacion-meta{
+    span{
+        color: $amarillo;
+    }
+}
 .texto-entrada{
     text-align: center;
     @include tablet{
