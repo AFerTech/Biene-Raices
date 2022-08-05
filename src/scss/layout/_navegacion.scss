@@ -17,10 +17,16 @@
 
 }
 .navegacion{
-    display: none;
+    // oculta el menu y le agrega animación al ocultarlo
+    // va ocultando la navegacion aplicando una opacidad
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility  .3s ease, opacity 0.5s linear;
     @include tablet{
         display: flex;
         align-items: center;
+        opacity: 1;
+        visibility: visible;
     }
 
     a{
@@ -52,10 +58,6 @@
     }
 }
 .mostrar{
-    display: flex;
-    flex-direction: column;
-
-    @include tablet{
-        flex-direction: row;
-    }
+    visibility: visible;
+    opacity: 1;
 }
