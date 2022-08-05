@@ -17,6 +17,7 @@
 
 }
 .navegacion{
+    display: none;
     @include tablet{
         display: flex;
         align-items: center;
@@ -49,4 +50,7 @@
         width: 5rem;
 
     }
+}
+.mostrar{
+    display: block;
 }
