@@ -1,5 +1,6 @@
 
 .formulario{
+    
     p{
         font-size: 2.4rem;
         color: $grisOscuro;
@@ -37,4 +38,11 @@
         align-items: center;
     }
 
+}
+fieldset{
+        border-radius: 1rem;
+        margin-bottom: 2rem;
+        .titulo-seccion{
+            margin: auto;
+        }
 }

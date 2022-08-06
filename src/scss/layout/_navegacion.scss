@@ -43,7 +43,8 @@
     // va ocultando la navegacion aplicando una opacidad
     visibility: hidden;
     opacity: 0;
-    transition: visibility  .3s ease, opacity 0.5s linear;
+    transition: visibility  .3s ease, opacity 0.5s linear, height .5s linear;
+    height: 0;
     @include tablet{
         display: flex;
         align-items: center;
@@ -82,4 +83,5 @@
 .mostrar{
     visibility: visible;
     opacity: 1;
+    height: auto;
 }
