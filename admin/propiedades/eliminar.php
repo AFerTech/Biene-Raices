@@ -5,9 +5,7 @@ require '../../includes/funciones.php';
 incluir_templates('header');
 ?>
     <main class="contenedor seccion">
-        <h1>Crear</h1>
-        <a href="/admin/" class="boton boton-azul">Regresar</a>
-
+        <h1>Eliminar</h1>
     </main>
 
 <?php
