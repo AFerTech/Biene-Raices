@@ -1,4 +1,7 @@
-<?php include 'includes/templates/header.php'?>
+<?php
+require 'includes/funciones.php'; 
+incluir_templates('header', $inicio=false);
+?>
 
 
     <main class="contenedor seccion contenido-centrado">
@@ -46,8 +49,9 @@ Ad amet nisi excepteur velit dolor commodo pariatur occaecat. Adipisicing eiusmo
         </div>
     </main>
 
-
-    <?php  include 'includes/templates/footer.php' ?>
+    <?php
+    incluir_templates('footer');
+    ?>
     <script src="build/js/bundle.min.js"></script>
   </body>
 </html>

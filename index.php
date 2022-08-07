@@ -1,8 +1,11 @@
 
 <?php
-  $inicio=true;  // añade la variable al código php
+declare(strict_types= 1);
+require 'includes/funciones.php';
+  // $inicio=true;  // añade la variable al código php
+// mandamos el nombre del template que se trata de agregar 
+incluir_templates('header', $inicio=true);
 ?>
-<?php include 'includes/templates/header.php'?>
 
 
     <main class="contenedor seccion">
@@ -263,7 +266,7 @@
      
 
 
-      <?php include 'includes/templates/footer.php'  ?>
-    <script src="build/js/bundle.min.js"></script>
-  </body>
-</html>
+    <?php
+    incluir_templates('footer');
+    ?>
+    

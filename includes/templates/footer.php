@@ -6,5 +6,11 @@
             <a href="blog.html">Blog</a>
             <a href="contacto.html">Contacto</a>
         </nav>
-        <p class="copyright">Todos los derechos reservados 2022 Copy</p>
+
+        
+        <p class="copyright">Todos los derechos reservados <?php echo date('Y'); ?> Copy</p>
 </footer>
+
+<script src="build/js/bundle.min.js"></script>
+  </body>
+</html>

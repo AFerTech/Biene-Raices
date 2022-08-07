@@ -16,7 +16,7 @@
   </head>
   <body>
     <!-- Operador ternario para agregar una variable con la que se añade un fondo al header del index -->
-    <header class="header  <?php echo isset ($inicio) ? 'inicio': ''; ?>">
+    <header class="header  <?php echo  ($inicio) ? 'inicio': ''; ?>">
       <div class="contenedor contenido-header">
         <div class="barra">
           <a href="/">
