@@ -5,11 +5,28 @@ document.addEventListener('DOMContentLoaded', function(){
 
     darkMode();
 });
-function darkMode(){
-    const botonDarkMode=document.querySelector('.dark-mode-boton');
-    botonDarkMode.addEventListener('click', function(){
-        document.body.classList.toggle('dark-mode');
-    });
+function darkMode() {
+    // Comprueba si estaba habilidado dark mode
+    let darkLocal = window.localStorage.getItem('dark');
+    if(darkLocal === 'true') {
+        document.body.classList.add('dark-mode');
+    }
+    // Añadimos el evento de click al botón de dark mode
+    document.querySelector('.dark-mode-boton').addEventListener('click', darkChange);
+}
+ 
+function darkChange() {
+    let darkLocal = window.localStorage.getItem('dark');
+ 
+    if(darkLocal === null || darkLocal === 'false') {
+        // No está inicializado darkLocal o es falso
+        window.localStorage.setItem('dark', true);
+        document.body.classList.add('dark-mode');
+    } else {
+        // Está activado darkMode, por lo que se desactiva
+        window.localStorage.setItem('dark', false);
+        document.body.classList.remove('dark-mode');
+    }
 }
 
 

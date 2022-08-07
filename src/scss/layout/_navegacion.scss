@@ -58,6 +58,8 @@
     font-size: 2rem;
     display: block;
     text-align: center;
+    
+
 
     @include tablet{
         margin-right: 2rem;
@@ -74,9 +76,13 @@
 .mobile-menu{
     @include tablet{
         display: none;
+        
     }
     img{
         width: 5rem;
+        // &:hover{
+        //     cursor: pointer;
+        // }
 
     }
 }
