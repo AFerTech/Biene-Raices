@@ -14,3 +14,7 @@
 .boton-rojo{
     @include boton($rojo, inline-block);
 }
+.boton-oscuro{
+    @include boton($grisOscuro, inline-block);
+    
+}
