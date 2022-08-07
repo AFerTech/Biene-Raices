@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@200;400;700&family=Playfair+Display:ital,wght@1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Bienes Raices</title>
+    <link rel="stylesheet" href="build/css/app.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="contenedor contenido-header">
+        <div class="barra">
+          <a href="/">
+            <img src="build/img/logo.svg" alt="logo de bienes raices" />
+          </a>
+          <div class="mobile-menu">
+            <img src="build/img/barras.svg" alt="icono menu responsive">
+          </div>
+
+          <div class="derecha">
+            <img src="build/img/dark-mode.svg" alt="icono-dark-mode" class="dark-mode-boton">
+            <nav class="navegacion">
+              <a href="nosotros.html">Nosotros</a>
+              <a href="anuncios.html">Anuncios</a>
+              <a href="blog.html">Blog</a>
+              <a href="contacto.html">Contacto</a>
+            </nav>
+          </div>
+          
+        </div>
+        <!--Cierre de la barra-->
+      </div>
+    </header>
+
+    <main class="contenedor mas-sobre-nosotros">
+      <h1>Conoce sobre nosotros</h1>
+      <div class="contenido-nosotros nosotros">
+        <div class="imagen">
+        <picture>
+          <source srcset="build/img/nosotros.webp" type="image/webp">
+          <source srcset="build/img/nosotros.jpg" type="image/jpg">
+          <img loading="lazy" width="200" height="300" src="build/img/nosotros.jpg" alt="mas sobre nosotros">
+        </picture>
+      </div>
+      <div class="texto-nosotros">
+        <blockquote> <!--Se utiliza cuando hay contenido por citar-->
+          25 años de experiencia
+        </blockquote>
+        <p>Eiusmod anim aute aliquip officia sint mollit ex consectetur veniam enim duis culpa enim. Amet nostrud irure ullamco quis nulla reprehenderit consectetur duis proident do est. Nisi eiusmod nulla aliquip cillum in ipsum mollit excepteur do anim ullamco. Adipisicing enim ad pariatur qui in quis ullamco aliquip laborum id aute aliquip. Ut do fugiat aliquip et.</p>
+        <p> ex consectetur veniam enim duis culpa enim. Amet nostrud irure ullamco quis nulla reprehenderit consectetur duis proident do est. Nisi eiusmod nulla aliquip cillum in ipsum mollit excepteur do anim ullamco. Adipisicing enim ad pariatur qui in quis ullamco aliquip laborum id aute aliquip. Ut do fugiat aliquip et. </p>
+        
+      </div>
+      </div>
+    </main>
+
+
+    <section class="contenedor seccion">
+      <h1>Más Sobre Nosotros</h1>
+
+      <div class="iconos-nosotros">
+        <div class="icono">
+          <img
+            src="build/img/icono1.svg"
+            alt="Icono seguridad"
+            loading="lazy"
+          />
+          <h3>Seguridad</h3>
+          <p>
+            Eu anim ipsum nulla voluptate. Non ut ex aute id ullamco ad id
+            deserunt elit culpa ipsum mollit. Nostrud consectetur mollit commodo
+            culpa minim qui ea amet nisi duis est consequat proident magna.
+          </p>
+        </div>
+        <div class="icono">
+          <img src="build/img/icono2.svg" alt="Icono precio" loading="lazy" />
+          <h3>Seguridad</h3>
+          <p>
+            Eu anim ipsum nulla voluptate. Non ut ex aute id ullamco ad id
+            deserunt elit culpa ipsum mollit. Nostrud consectetur mollit commodo
+            culpa minim qui ea amet nisi duis est consequat proident magna.
+          </p>
+        </div>
+        <div class="icono">
+          <img src="build/img/icono3.svg" alt="Icono tiempo" loading="lazy" />
+          <h3>Seguridad</h3>
+          <p>
+            Eu anim ipsum nulla voluptate. Non ut ex aute id ullamco ad id
+            deserunt elit culpa ipsum mollit. Nostrud consectetur mollit commodo
+            culpa minim qui ea amet nisi duis est consequat proident magna.
+          </p>
+        </div>
+      </div>
+    </section>
+
+
+    <footer class="footer seccion">
+        <div class="contenedor contenedor-footer">
+            <nav class="navegacion">
+                <a href="nosotros.html">Nosotros</a>
+                <a href="anuncis.html">Anuncion</a>
+                <a href="blog.html">Blog</a>
+                <a href="contacto.html">Contacto</a>
+            </nav>
+        </div>
+        <p class="copyright">Todos los derechos reservados 2022 Copy</p>
+    </footer>
+    <script src="build/js/bundle.min.js"></script>
+  </body>
+</html>

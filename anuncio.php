@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@200;400;700&family=Playfair+Display:ital,wght@1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Bienes Raices</title>
+    <link rel="stylesheet" href="build/css/app.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="contenedor contenido-header">
+        <div class="barra">
+          <a href="/">
+            <img src="build/img/logo.svg" alt="logo de bienes raices" />
+          </a>
+          <div class="mobile-menu">
+            <img src="build/img/barras.svg" alt="icono menu responsive">
+          </div>
+
+          <div class="derecha">
+            <img src="build/img/dark-mode.svg" alt="icono-dark-mode" class="dark-mode-boton">
+            <nav class="navegacion">
+              <a href="nosotros.html">Nosotros</a>
+              <a href="anuncios.html">Anuncios</a>
+              <a href="blog.html">Blog</a>
+              <a href="contacto.html">Contacto</a>
+            </nav>
+          </div>
+          
+        </div>
+        <!--Cierre de la barra-->
+      </div>
+    </header>
+
+    <main class="contenedor seccion contenido-centrado">
+        <h1>Casa en venta frente al bosque</h1>
+
+        <picture>
+            <source srcset="build/img/destacada.webp" type="image/webp">
+            <source srcset="build/img/destacada.jpg" type="image/jpg">
+            <img loading="lazy" width="200" height="300" src="build/img/destacada.jpg" alt="imagen casa con piscina">
+        </picture>
+        <div class="resumen-propiedad">
+            <p class="precio">$3,000,000</p>
+            <ul class="iconos-caracteristicas">
+                <li>
+                  <img
+                  class="icono"
+                    loading="lazy"
+                    src="build/img/icono_wc.svg"
+                    alt="icono wc"
+                  />
+                  <p>3</p>
+                </li>
+                <li>
+                  <img
+                  class="icono"
+                    loading="lazy"
+                    src="build/img/icono_estacionamiento.svg"
+                    alt="icono estacionamiento"
+                  />
+                  <p>3</p>
+                </li>
+                <li>
+                  <img
+                  class="icono"
+                    loading="lazy"
+                    src="build/img/icono_dormitorio.svg"
+                    alt="icono habitaciones"
+                  />
+                  <p>3</p>
+                </li>
+              </ul>
+              <p>Est sit excepteur adipisicing consectetur fugiat tempor. Velit enim labore aliqua adipisicing minim aliquip cupidatat in laborum ex. Amet laboris irure mollit laboris fugiat voluptate minim est. Ad mollit ut aliquip officia mollit incididunt ea irure aliqua eu est nisi nostrud.
+
+Ad amet nisi excepteur velit dolor commodo pariatur occaecat. Adipisicing eiusmod exercitation excepteur pariatur occaecat. Amet nulla excepteur nostrud Lorem aute aliquip duis officia id do culpa officia ex. Nulla dolore irure eu nisi. Minim sit deserunt ullamco laborum aliquip tempor aliquip minim velit.</p>
+        </div>
+    </main>
+
+
+    <footer class="footer seccion">
+        <div class="contenedor contenedor-footer">
+            <nav class="navegacion">
+                <a href="nosotros.html">Nosotros</a>
+                <a href="anuncis.html">Anuncios</a>
+                <a href="blog.html">Blog</a>
+                <a href="contacto.html">Contacto</a>
+            </nav>
+        </div>
+        <p class="copyright">Todos los derechos reservados 2022 Copy</p>
+    </footer>
+    <script src="build/js/bundle.min.js"></script>
+  </body>
+</html>
