@@ -1,6 +1,6 @@
 
 <?php
-declare(strict_types= 1);
+// declare (strict_types=1) para declarar el modo stricto
 require 'includes/funciones.php';
   // $inicio=true;  // añade la variable al código php
 // mandamos el nombre del template que se trata de agregar 
